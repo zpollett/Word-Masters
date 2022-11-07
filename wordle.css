@@ -1,0 +1,47 @@
+body {
+    width: 300px;
+    border-color: red;
+}
+
+.play-area {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+.guess {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.text {
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nope {
+    background-color: grey;
+    color: white;
+}
+
+.close {
+    background-color: orange;
+    color: white;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
